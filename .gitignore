@@ -1,2 +1,25 @@
+project/project/
+target/
+cache/
+.bsp/
+.bloop/
+.metals/
+metals.sbt
+#.vscode/
+make/
+null/
+*.tests
+*.soln
+*.save
+*.jar
 *.class
-*.log
+*.doc
+*.docx
+*.pdf
+*.keep
+
+# ignore detritus left by vim
+*.swn
+*.swo
+*.swp
+*~
