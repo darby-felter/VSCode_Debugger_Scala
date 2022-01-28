@@ -32,18 +32,17 @@ Within the `HelloTests.scala` copy/paste the following:
 
 ```scala
 package tester
-
 import utest._
-
 
 object HelloTests extends TestSuite{
   val tests = Tests{
     test("test1"){
-      val k = 2
-      val arr = Array[(Int, Int)]((1,2), (5,6), (15,16))
-      hw4.unoccupiedDays(k, arr)
+      val arg1 = 1
+      val arg2 = 2
+      hw#.functionName(arg1, arg2)
     }
   }
 }
 ```
-***Note that the package "tester" and the name of the file "HelloTests" matches the `testClass` in the `launch.json` file***
+***Note that the package "tester" and the name of the file "HelloTests" matches the `testClass` field in the `launch.json` file***
+`hw#.functionName` should be replaced by the current homework and the name of your function. Say I'm working on `unoccupiedDays` in `hw4`, then this would be `hw4.unoccupiedDays(k, arr)`
