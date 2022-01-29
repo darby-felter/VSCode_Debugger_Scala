@@ -1,13 +1,13 @@
 # CS385_VSCode_Debugger
 Short tutorial for utilizing the debugger in VS Code for Scala
 
-## `build.sbt`
+## build.sbt
 Go to the homework's `build.sbt` file and add the following two lines after the existing `libraryDependencies`
 ```scala
 libraryDependencies += "com.lihaoyi" %% "utest" % "0.7.9" % "test",
 testFrameworks += new TestFramework("utest.runner.Framework"),
 ```
-## `launch.json`
+## launch.json
 In the "Run and Debug" section within VS Code, click the dropdown menu and choose "Add Configuration..."
 Choose any template you want, and that should open a `launch.json` file.
 In that file, delete everything and replace it with 
