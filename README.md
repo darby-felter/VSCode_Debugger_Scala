@@ -27,7 +27,7 @@ In that file, delete everything and replace it with
 ```
 the `tester.HelloTests` line will become relevant in a second
 
-##Test Folder
+## Test Folder
 Within the hw file explorer, create the following directory: `src/test/scala/HelloTests.scala`
 
 Within the `HelloTests.scala` copy/paste the following:
