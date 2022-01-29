@@ -1,5 +1,5 @@
 # CS385_VSCode_Debugger
-Short tutorial and files used for utilizing the debugger in VS Code
+Short tutorial for utilizing the debugger in VS Code for Scala
 
 ## `build.sbt`
 Go to the homework's `build.sbt` file and add the following two lines after the existing `libraryDependencies`
