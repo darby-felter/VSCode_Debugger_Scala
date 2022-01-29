@@ -45,6 +45,11 @@ object HelloTests extends TestSuite{
 }
 ```
 ***Note that the package "tester" and the name of the file "HelloTests" matches the `testClass` field in the `launch.json` file*** <br />
+<br />
 `hw#.functionName` should be replaced by the current homework and the name of your function (and its parameters). Say I'm working on `unoccupiedDays` in `hw4`, then this would be `hw4.unoccupiedDays(k, arr)`
 
 Next, at the top of your `hw#.scala` type in another `package tester`
+
+At this point you should be ready to set a break point within your main `hw#.scala` and click the green triangle on the debugger panel
+
+
