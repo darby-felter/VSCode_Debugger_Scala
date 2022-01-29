@@ -52,6 +52,6 @@ object HelloTests extends TestSuite{
 
 Next, at the top of your `hw#.scala` type in another `package tester`
 
-At this point you should be ready to set a break point within your main `hw#.scala` and click the green triangle on the debugger panel
+At this point you should be ready to set a break point within your main `hw#.scala` and click the green triangle on the debugger panel. I have found that you also need to set a break point in `HelloTests.scala` at the line where you call `hw#.functionName(arg1, arg2, etc...)`
 
 
