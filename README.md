@@ -17,7 +17,7 @@ In that file, delete everything and replace it with
     "configurations": [
         {
             "type": "scala",
-            "name": "hw4 debugger",
+            "name": "CS385 debugger",
             "request": "launch",
             "testClass": "tester.HelloTests"
         }
@@ -45,4 +45,6 @@ object HelloTests extends TestSuite{
 }
 ```
 ***Note that the package "tester" and the name of the file "HelloTests" matches the `testClass` field in the `launch.json` file***
-`hw#.functionName` should be replaced by the current homework and the name of your function. Say I'm working on `unoccupiedDays` in `hw4`, then this would be `hw4.unoccupiedDays(k, arr)`
+`hw#.functionName` should be replaced by the current homework and the name of your function (and its parameters). Say I'm working on `unoccupiedDays` in `hw4`, then this would be `hw4.unoccupiedDays(k, arr)`
+
+Next, at the top of your `hw#.scala` type in another `package tester`
