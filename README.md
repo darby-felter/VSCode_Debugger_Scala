@@ -1,8 +1,8 @@
-# VSCode_Debugger_Scala
+# VSCode Debugger for Scala
 Short tutorial for utilizing the debugger in VS Code for Scala
 
 ## build.sbt
-Go to the `build.sbt` file and add the following two lines after the existing `libraryDependencies`
+Go to the `build.sbt` file and add the following two lines after the existing `libraryDependencies` (the second line may or may not require a comma depending on where you place them)
 ```scala
 libraryDependencies += "com.lihaoyi" %% "utest" % "0.7.9" % "test",
 testFrameworks += new TestFramework("utest.runner.Framework"),
